@@ -1,0 +1,13 @@
+.photo-card {
+  background-color: rgb(85, 232, 243);
+  height: 30%;
+  width: 15%;
+  z-index: 999;
+  justify-content: center;
+  display: flex;
+  border-radius: 100%;
+}
+
+.memoji {
+  padding-top: 30px;
+}

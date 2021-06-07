@@ -1,0 +1,21 @@
+.text-card {
+  height: 30%;
+  padding: 25px 30px 25px 0px;
+}
+
+.name-text {
+  font-size: 64px;
+  margin: 20px 0px 2px;
+}
+
+.sub-text {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #848484;
+  font-style: normal;
+}
+
+.body-text {
+  font-size: 14px;
+}

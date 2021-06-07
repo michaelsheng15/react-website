@@ -1,0 +1,47 @@
+.text-card {
+    height: 30%;
+    padding: 25px 30px 25px 0px;
+    /* background-color: aqua; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    /* border: 10px solid blue; */
+}
+
+.body-text{
+    font-size: 14px;
+}
+
+.name-text{
+    font-size: 64px;
+    margin: 20px 0px 2px;
+}
+
+.sub-text{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #848484;
+    font-style: normal;
+    
+}
+
+.photo-card{
+    background-color: rgb(85, 232, 243);
+    height: 30%;
+    width: 15%;
+    z-index: 999;
+    justify-content: center;
+    display: flex;
+    border-radius: 100%;
+}
+
+.memoji{
+    padding-top: 30px;
+}
+

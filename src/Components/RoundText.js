@@ -2,8 +2,8 @@ import './RoundText.css'
 
 const RoundText = () =>{
     return(
-        <div>
-            <p>Click to learn more!</p>
+        <div className='round-container'>
+            <p className='round-text'>Click to learn more!</p>
         </div>
 
     );

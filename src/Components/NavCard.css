@@ -1,0 +1,21 @@
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav-label{
+    color: rgb(143, 143, 143);
+    margin: 25px;
+    transition: transform 0.2s;
+    font-size: 15px;
+}
+
+.nav-label:hover{
+    transform: scale(1.05)
+
+}
+
+

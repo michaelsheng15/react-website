@@ -7,6 +7,7 @@ const PhotoCard = () => {
   return (
     <div className="photo-card">
       <img className="memoji" src={memoji} alt="Me!" />
+      {/* <RoundText /> */}
     </div>
   );
 };

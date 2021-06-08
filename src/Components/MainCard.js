@@ -1,18 +1,18 @@
 import React from "react";
-import "./LandingCard.css";
+import "./MainCard.css";
 import TextCard from "./TextCard";
-import PhotoCard from './PhotoCard'
-
-
-
+import PhotoCard from "./PhotoCard";
+import NavCard from "./NavCard";
 
 const MainCard = () => {
   return (
-    <div className="outline">
+    <div>
+      <NavCard />
+      <div className="outline">
         <TextCard />
         <PhotoCard />
+      </div>
     </div>
-    
   );
 };
 

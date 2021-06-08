@@ -6,6 +6,8 @@
   display: flex;
   border-radius: 50%;
   transition: transform 0.2s;
+  border: 5px solid rgb(255, 188, 89);
+  margin-bottom: 30px;
 }
 
 .memoji {

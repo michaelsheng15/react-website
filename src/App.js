@@ -1,4 +1,4 @@
-import MainCard from './Components/LandingCard'
+import MainCard from './Components/MainCard'
 
 function App() {
   return (

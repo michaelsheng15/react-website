@@ -3,12 +3,14 @@ import "./MainCard.css";
 import TextCard from "./TextCard";
 import PhotoCard from './PhotoCard'
 
+
 const MainCard = () => {
   return (
-    <div className="container">
-      <TextCard />
-      <PhotoCard />
+    <div className="outline">
+        <TextCard />
+        <PhotoCard />
     </div>
+    
   );
 };
 

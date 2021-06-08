@@ -2,8 +2,9 @@ import "./TextCard.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-import { AiFillFile } from "react-icons/ai";
+import { AiFillFileMarkdown } from "react-icons/ai";
 import { IconContext } from "react-icons";
+
 
 const TextCard = () => {
   return (
@@ -20,8 +21,8 @@ const TextCard = () => {
       </p>
 
       <div className="button-container">
-        <IconContext.Provider value={{ color: "#222" }}>
-          <button className="button-home">
+        <IconContext.Provider value={{ color: "#222", className: 'button-scale' }}>
+          <button className="button-icon">
             <a
               target="_blank"
               href="https://github.com/michaelsheng15"
@@ -32,8 +33,8 @@ const TextCard = () => {
           </button>
         </IconContext.Provider>
 
-        <IconContext.Provider value={{ color: "#222" }}>
-          <button className="button-home">
+        <IconContext.Provider value={{ color: "#222", className: 'button-scale' }}>
+          <button className="button-icon">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/michaeljsheng/"
@@ -44,8 +45,8 @@ const TextCard = () => {
           </button>
         </IconContext.Provider>
 
-        <IconContext.Provider value={{ color: "#222" }}>
-          <button className="button-home">
+        <IconContext.Provider value={{ color: "#222", className: 'button-scale' }}>
+          <button className="button-icon">
             <a
               target="_blank"
               href="mailto:m3sheng@uwaterloo.ca"
@@ -56,13 +57,14 @@ const TextCard = () => {
           </button>
         </IconContext.Provider>
 
-        <IconContext.Provider value={{ color: "#222" }}>
-          <button className="button-home">
+        <IconContext.Provider value={{ color: "#222", className: 'button-scale', border: 'none' }}>
+          <button className="button-icon">
             <a target="_blank" href="null" rel="noreferrer">
-              <AiFillFile className="logo" />
+              <AiFillFileMarkdown className="logo" />
             </a>
           </button>
         </IconContext.Provider>
+
       </div>
     </div>
   );

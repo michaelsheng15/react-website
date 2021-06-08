@@ -1,6 +1,7 @@
 .text-card {
   height: 30%;
-  padding: 5px 30px 25px 0px;
+  padding: 0px 15px 25px 0px;
+  margin-bottom: 0px;
 }
 
 .name-text {
@@ -18,6 +19,7 @@
 
 .body-text {
   font-size: 14px;
+  margin: 0px 0px 6px;
 }
 
 .button-container {
@@ -29,19 +31,27 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  right: 7px;
+  margin-top:12px;
 }
 
 .logo {
-    height: 22px;
-    width: 22px;
-
+  height: 23px;
+  width: 23px;
 }
 
-.button-home{
-    background: none;
+.button-scale {
+  background: none;
+  transition: transform 0.2s;
+  border: none;
+  
+}
+
+.button-scale:hover {
+  transform: scale(1.15);
+}
+
+.button-icon {
     border: none;
-    padding-left: 0px;
-    padding-right: 15px;
-}
-
-
+    background: none;
+  }

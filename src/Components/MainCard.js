@@ -4,6 +4,7 @@ import TextCard from "./TextCard";
 import PhotoCard from './PhotoCard'
 
 
+
 const MainCard = () => {
   return (
     <div className="outline">

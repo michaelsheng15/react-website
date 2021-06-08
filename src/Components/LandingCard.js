@@ -1,7 +1,8 @@
 import React from "react";
-import "./MainCard.css";
+import "./LandingCard.css";
 import TextCard from "./TextCard";
 import PhotoCard from './PhotoCard'
+
 
 
 

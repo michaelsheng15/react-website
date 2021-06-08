@@ -1,0 +1,32 @@
+.button-container {
+  /* background-color: blue; */
+  width: 300px;
+  height: 30px;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  right: 7px;
+  margin-top: 16px;
+}
+
+.button-scale {
+  background: none;
+  transition: transform 0.2s;
+  border: none;
+}
+
+.button-scale:hover {
+  transform: scale(1.15);
+}
+
+.button-icon {
+  border: none;
+  background: none;
+}
+
+.logo {
+  height: 23px;
+  width: 23px;
+}

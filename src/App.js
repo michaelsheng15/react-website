@@ -1,7 +1,11 @@
-import MainCard from './Components/MainCard'
+import MainCard from './Components/LandingCard'
+
 function App() {
   return (
-    <MainCard />
+    <div>
+      <MainCard />
+    </div>
+    
   );
 }
 

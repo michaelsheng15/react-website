@@ -1,8 +1,7 @@
 .photo-card {
   background-color: rgb(255, 209, 140);
-  height: 30%;
-  width: 16%;
-  z-index: 999;
+  height: 200px;
+  width: 200px;
   justify-content: center;
   display: flex;
   border-radius: 50%;
@@ -13,8 +12,6 @@
   margin-top: 25px;
 }
 
-.photo-card:hover{
-    transform: scale(1.03);
+.photo-card:hover {
+  transform: scale(1.03);
 }
-
-

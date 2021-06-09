@@ -1,21 +1,22 @@
-
-.screen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
 }
 
-.nav-label{
-    color: rgb(143, 143, 143);
-    margin: 25px;
-    transition: transform 0.2s;
-    font-size: 15px;
+.nav-label {
+  color: rgb(143, 143, 143);
+  margin: 25px 110px 15px;
+  transition: transform 0.2s;
+  font-size: 16px;
 }
 
-.nav-label:hover{
-    transform: scale(1.05)
-
+.nav-label:hover {
+  transform: scale(1.08);
 }
 
-
+.nav-line {
+  border: 0.1px solid rgb(235, 235, 235);
+  width: 100%;
+}

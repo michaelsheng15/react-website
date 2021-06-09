@@ -5,7 +5,7 @@ const TextCard = () => {
   return (
     <div className="text-card">
       <h1 className="name-text">Michael Sheng</h1>
-      <p className="sub-text">Engineer | Student</p>
+      <p className="sub-text">Student | Engineer</p>
       <p className="body-text">
         An aspiring software developer studying Management Engineering{" "}
         <font color="#9900FF">@UWaterloo</font>.📍

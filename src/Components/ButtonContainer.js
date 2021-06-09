@@ -9,7 +9,7 @@ const ButtonContainer = () => {
   return (
     <div className="button-container">
       <IconContext.Provider
-        value={{ color: "#333333", className: "button-scale" }}
+        value={{ color: "grey", className: "button-scale" }}
       >
         <button className="button-icon">
           <a
@@ -23,7 +23,7 @@ const ButtonContainer = () => {
       </IconContext.Provider>
 
       <IconContext.Provider
-        value={{ color: "#333333", className: "button-scale" }}
+        value={{ color: "grey", className: "button-scale" }}
       >
         <button className="button-icon">
           <a
@@ -37,7 +37,7 @@ const ButtonContainer = () => {
       </IconContext.Provider>
 
       <IconContext.Provider
-        value={{ color: "#333333", className: "button-scale" }}
+        value={{ color: "grey", className: "button-scale" }}
       >
         <button className="button-icon">
           <a
@@ -51,7 +51,7 @@ const ButtonContainer = () => {
       </IconContext.Provider>
 
       <IconContext.Provider
-        value={{ color: "#333333", className: "button-scale", border: "none" }}
+        value={{ color: "grey", className: "button-scale", border: "none" }}
       >
         <button className="button-icon">
           <a target="_blank" href="null" rel="noreferrer">

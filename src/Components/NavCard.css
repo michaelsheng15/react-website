@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  height: 10vh;
 }
 
 .nav-label {
   color: rgb(143, 143, 143);
   margin: 25px 110px 15px;
   transition: transform 0.2s;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .nav-label:hover {

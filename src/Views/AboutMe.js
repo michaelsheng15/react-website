@@ -8,7 +8,7 @@ const AboutMe = () => {
       <NavCard />
       <h1 className="title">About Me</h1>
       <p className="sub-exp-text">Bio, skills and photos.</p>
-      <Row>
+      <Row className='about-me-row'>
         <Col lg={8} className="large-col">
           <div>
             <p>Sample</p>

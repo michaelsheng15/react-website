@@ -7,3 +7,7 @@
   background-color: salmon;
   display: flex;
 }
+
+.about-me-row{
+    width: 660px;
+}

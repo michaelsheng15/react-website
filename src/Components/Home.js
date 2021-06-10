@@ -4,7 +4,6 @@ import TextCard from "./TextCard";
 import PhotoCard from "./PhotoCard";
 import NavCard from "./NavCard";
 
-
 const MainCard = () => {
   return (
     <div>

@@ -8,7 +8,7 @@ const Projects = () => {
     <Container>
       <NavCard />
       <h1 className="title">Projects</h1>
-      <p className="sub-exp-text">Internships, clubs and freelancing</p>
+      <p className="sub-exp-text">Sample</p>
 
       <div className="item-container-wrapper">
         <Row className="item-container">

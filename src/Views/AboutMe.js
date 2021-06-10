@@ -3,12 +3,12 @@ import NavCard from "../Components/NavCard";
 import "./Views.css";
 
 
-const Hackathons = () => {
+const AboutMe = () => {
   return (
     <Container>
       <NavCard />
       <h1 className="title">Hackathons</h1>
-      <p className="sub-exp-text">Internships, clubs and freelancing</p>
+      <p className="sub-exp-text">Sample</p>
 
       <div className="item-container-wrapper">
         <Row className="item-container">
@@ -27,4 +27,4 @@ const Hackathons = () => {
     </Container>
   );
 };
-export default Hackathons;
+export default AboutMe;

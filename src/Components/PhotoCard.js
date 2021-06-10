@@ -1,12 +1,12 @@
 import memoji from "../img/memoji.png";
-
+import { Link } from "react-router-dom";
 import "./PhotoCard.css";
 
 const PhotoCard = () => {
   return (
-    <div className="photo-card">
+    <Link className="photo-card" to='/Hackathons'>
       <img className="memoji" src={memoji} alt="Me!" />
-    </div>
+    </Link>
   );
 };
 

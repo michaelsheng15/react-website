@@ -7,7 +7,7 @@
 
 .nav-label {
   color: rgb(143, 143, 143);
-  margin: 25px 110px 15px;
+  margin: 25px 10px 15px;
   transition: transform 0.2s;
   font-size: 14px;
 }
@@ -20,3 +20,21 @@
   border: 0.1px solid rgb(235, 235, 235);
   width: 100%;
 }
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 800px;
+}
+
+.nav-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px 0px;
+
+}
+
+

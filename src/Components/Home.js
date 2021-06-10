@@ -1,8 +1,9 @@
 import React from "react";
-import "./MainCard.css";
+import "./Home.css";
 import TextCard from "./TextCard";
 import PhotoCard from "./PhotoCard";
 import NavCard from "./NavCard";
+
 
 const MainCard = () => {
   return (

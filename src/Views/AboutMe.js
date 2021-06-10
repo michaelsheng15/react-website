@@ -1,29 +1,25 @@
 import { Container, Row, Col } from "react-bootstrap";
 import NavCard from "../Components/NavCard";
-import "./Views.css";
-
+import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
     <Container>
       <NavCard />
-      <h1 className="title">Hackathons</h1>
-      <p className="sub-exp-text">Sample</p>
-
-      <div className="item-container-wrapper">
-        <Row className="item-container">
-          <Col lg={8} className="text-col">
-            <div className='text-wrapper'>
-                <h3>HacktheNorth 2021</h3>
-                <p>Cooky</p>
-            </div>
-          </Col>
-          <Col lg={4} className="img-col">
-            {/* <img src={yrlogo}/> */}
-          </Col>
-        </Row>
-      </div>
-      
+      <h1 className="title">About Me</h1>
+      <p className="sub-exp-text">Bio, skills and photos.</p>
+      <Row>
+        <Col lg={8} className="large-col">
+          <div>
+            <p>Sample</p>
+          </div>
+        </Col>
+        <Col lg={4} className="small-col">
+          <div>
+            <p>img</p>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 };

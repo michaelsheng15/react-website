@@ -1,0 +1,9 @@
+.large-col {
+  background-color: royalblue;
+  display: flex;
+}
+
+.small-col {
+  background-color: salmon;
+  display: flex;
+}

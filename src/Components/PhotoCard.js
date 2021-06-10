@@ -4,7 +4,7 @@ import "./PhotoCard.css";
 
 const PhotoCard = () => {
   return (
-    <Link className="photo-card" to='/Hackathons'>
+    <Link className="photo-card" to="/about-me">
       <img className="memoji" src={memoji} alt="Me!" />
     </Link>
   );

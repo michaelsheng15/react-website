@@ -8,6 +8,32 @@
   display: flex;
 }
 
-.about-me-row{
-    width: 660px;
+.about-me-row {
+  width: 700px;
 }
+
+.slider-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider-div{
+    height: 300px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    margin-bottom: 50px;
+}
+

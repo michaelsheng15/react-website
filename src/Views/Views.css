@@ -10,7 +10,7 @@
 }
 
 .item-container {
-  width: 690px;
+  width: 600px;
   height: 220px;
   border-radius: 10px;
   transition: transform 0.4s, box-shadow 0.4s;
@@ -45,9 +45,38 @@
 
 .img-col {
   display: flex;
-  background-color: royalblue;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  overflow: hidden;
+
 }
 
 .text-wrapper {
   margin-left: 50px;
+}
+
+.diceblitz{
+  border-radius: 0px 10px 10px 0px;
+  width: 250px;
+  height: 217px;
+  object-fit: cover;
+  /* background-color: rgb(226, 43, 217); */
+}
+
+.a{
+  color: black;
+}
+.a:hover{
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.site{
+  border-radius: 0px 10px 10px 0px;
+  width: 250px;
+  height: 217px;
+  object-fit: cover;
+  /* background-color: rgb(226, 43, 217); */
 }

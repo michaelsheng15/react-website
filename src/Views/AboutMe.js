@@ -2,25 +2,29 @@ import { Container, Row, Col } from "react-bootstrap";
 import NavCard from "../Components/NavCard";
 import "./AboutMe.css";
 
+import React from "react";
+import Slider from "react-slick";
+
 const AboutMe = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
-    <Container>
+    <div>
       <NavCard />
-      <h1 className="title">About Me</h1>
-      <p className="sub-exp-text">Bio, skills and photos.</p>
-      <Row className='about-me-row'>
-        <Col lg={8} className="large-col">
-          <div>
-            <p>Sample</p>
-          </div>
-        </Col>
-        <Col lg={4} className="small-col">
-          <div>
-            <p>img</p>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+      <Container>
+        <h1 className="title">About Me</h1>
+        <p className="sub">Bio, skills and photos.</p>
+      </Container>
+      <Slider {...settings}>
+ 
+      </Slider>
+    </div>
   );
 };
 export default AboutMe;

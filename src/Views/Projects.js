@@ -3,6 +3,10 @@ import NavCard from "../Components/NavCard";
 import "./Views.css";
 import DiceBlitz from "../img/DiceBlitz.png";
 import Site from "../img/Site.png";
+import Sort from "../img/Sort.png";
+import ind from "../img/ind.png";
+import Cooky from "../img/cooky.png";
+
 
 const Projects = () => {
   return (
@@ -27,7 +31,7 @@ const Projects = () => {
             </Col>
             <Col lg={5} className="img-col">
               <div className="diceblitz-div">
-                <img src={DiceBlitz} className="diceblitz" alt="DiceBlitz" />
+                <img src={DiceBlitz} className="site" alt="DiceBlitz" />
               </div>
             </Col>
           </Row>
@@ -48,7 +52,7 @@ const Projects = () => {
               </div>
             </Col>
             <Col lg={5} className="img-col">
-              <img src={Site} className="site" alt="COOKY" />
+              <img src={Cooky} className="site" alt="COOKY" />
             </Col>
           </Row>
         </a>
@@ -87,7 +91,9 @@ const Projects = () => {
                 <p>VBA | MS Excel Tools</p>
               </div>
             </Col>
-            <Col lg={5} className="img-col"></Col>
+            <Col lg={5} className="img-col">
+                <img src={Sort} className='sort'/>
+            </Col>
           </Row>
         </a>
       </div>
@@ -105,7 +111,9 @@ const Projects = () => {
                 <p>VBA | MS Excel Tools</p>
               </div>
             </Col>
-            <Col lg={5} className="img-col"></Col>
+            <Col lg={5} className="img-col">
+                <img src={ind} className='sort'/>
+            </Col>
           </Row>
         </a>
       </div>

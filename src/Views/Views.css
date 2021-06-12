@@ -7,6 +7,8 @@
 
 .sub-exp-text {
   margin-bottom: 60px;
+  font-size: 14px;
+  color: rgb(66, 66, 66);
 }
 
 .item-container {
@@ -79,4 +81,16 @@
   height: 217px;
   object-fit: cover;
   /* background-color: rgb(226, 43, 217); */
+}
+
+.yr{
+  height: auto;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.sort{
+  height: auto;
+  width: 200px;
+  margin-bottom: 20px;
 }

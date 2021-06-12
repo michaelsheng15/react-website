@@ -34,6 +34,41 @@
 }
 
 .sub{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
 }
 
+.uw{
+    width: 300px;
+    height: auto;
+}
+
+.p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.row-about{
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.skill-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 95%;
+}

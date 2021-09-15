@@ -8,7 +8,7 @@ const NavCard = () => {
     <Container className="screen">
       <Row className="row">
         <Col className="nav-col">
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/home" style={{ textDecoration: "none" }}>
             <p className="nav-label">Home 🏡</p>
           </Link>
         </Col>

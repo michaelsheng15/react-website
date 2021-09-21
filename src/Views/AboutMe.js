@@ -25,8 +25,7 @@ const AboutMe = () => {
           <img></img>
           <p className="p">
             Hi, I’m Michael! A dedicated, team-oriented student with extensive
-            experience in team leadership, conflict resolution and project
-            management. When I am not in class, I enjoy working on side projects
+            experience in full stack web applications and web services. When I am not in class, I enjoy working on side projects
             to solve complex, everday problems to apply and further my learning.
             I am a diligent, ambitious individual and I am eager to build on my
             academic foundation in computer science through real-world
@@ -48,23 +47,7 @@ const AboutMe = () => {
           <img src={uw2} className="uw" />
         </Row>
 
-        <Row className="row-about">
-          <h3>Gallery</h3>
-          <Slider {...settings}>
-            <div>
-              <p>1</p>
-            </div>
-            <div>
-              <p>2</p>
-            </div>
-            <div>
-              <p>3</p>
-            </div>
-            <div>
-              <p>4</p>
-            </div>
-          </Slider>
-        </Row>
+        
       </Container>
     </div>
   );

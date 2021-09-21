@@ -17,14 +17,14 @@ const MainCard = () => {
       <div className="outline">
         <div className="text-card">
           <h1 className="name-text">Michael Sheng</h1>
-          <p className="sub-text">Student | Engineer | Frisbee Enthusiast</p>
+          <p className="sub-text">Student | Developer | Frisbee Enthusiast</p>
           <p className="body-text">
             An aspiring software developer studying Management Engineering{" "}
             <font color="#9900FF">@UWaterloo</font>.📍
           </p>
           <p className="body-text">
             This summer, I interned <font color="#0055FF">@York Region</font> as
-            a Technical Support Analyst. 💻
+            an IT Support Analyst. 💻
           </p>
           <div className="button-container">
             <IconContext.Provider

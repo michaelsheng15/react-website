@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-website/static/css/main.203831eb.chunk.css",
-    "main.js": "/react-website/static/js/main.a1195956.chunk.js",
-    "main.js.map": "/react-website/static/js/main.a1195956.chunk.js.map",
-    "runtime-main.js": "/react-website/static/js/runtime-main.abcd2e26.js",
-    "runtime-main.js.map": "/react-website/static/js/runtime-main.abcd2e26.js.map",
+    "main.js": "/react-website/static/js/main.8bc20a7a.chunk.js",
+    "main.js.map": "/react-website/static/js/main.8bc20a7a.chunk.js.map",
+    "runtime-main.js": "/react-website/static/js/runtime-main.b5b0e82b.js",
+    "runtime-main.js.map": "/react-website/static/js/runtime-main.b5b0e82b.js.map",
     "static/css/2.5e49c8de.chunk.css": "/react-website/static/css/2.5e49c8de.chunk.css",
-    "static/js/2.76aabd9c.chunk.js": "/react-website/static/js/2.76aabd9c.chunk.js",
-    "static/js/2.76aabd9c.chunk.js.map": "/react-website/static/js/2.76aabd9c.chunk.js.map",
-    "static/js/3.4633021f.chunk.js": "/react-website/static/js/3.4633021f.chunk.js",
-    "static/js/3.4633021f.chunk.js.map": "/react-website/static/js/3.4633021f.chunk.js.map",
+    "static/js/2.633842c2.chunk.js": "/react-website/static/js/2.633842c2.chunk.js",
+    "static/js/2.633842c2.chunk.js.map": "/react-website/static/js/2.633842c2.chunk.js.map",
+    "static/js/3.43356c26.chunk.js": "/react-website/static/js/3.43356c26.chunk.js",
+    "static/js/3.43356c26.chunk.js.map": "/react-website/static/js/3.43356c26.chunk.js.map",
     "index.html": "/react-website/index.html",
     "static/css/2.5e49c8de.chunk.css.map": "/react-website/static/css/2.5e49c8de.chunk.css.map",
     "static/css/main.203831eb.chunk.css.map": "/react-website/static/css/main.203831eb.chunk.css.map",
-    "static/js/2.76aabd9c.chunk.js.LICENSE.txt": "/react-website/static/js/2.76aabd9c.chunk.js.LICENSE.txt",
+    "static/js/2.633842c2.chunk.js.LICENSE.txt": "/react-website/static/js/2.633842c2.chunk.js.LICENSE.txt",
     "static/media/DiceBlitz.716155b8.png": "/react-website/static/media/DiceBlitz.716155b8.png",
     "static/media/Site.53af7d68.png": "/react-website/static/media/Site.53af7d68.png",
     "static/media/Sort.4f264e27.png": "/react-website/static/media/Sort.4f264e27.png",
@@ -25,10 +25,10 @@
     "static/media/yrlogo1.ad9f07e8.png": "/react-website/static/media/yrlogo1.ad9f07e8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.abcd2e26.js",
+    "static/js/runtime-main.b5b0e82b.js",
     "static/css/2.5e49c8de.chunk.css",
-    "static/js/2.76aabd9c.chunk.js",
+    "static/js/2.633842c2.chunk.js",
     "static/css/main.203831eb.chunk.css",
-    "static/js/main.a1195956.chunk.js"
+    "static/js/main.8bc20a7a.chunk.js"
   ]
 }

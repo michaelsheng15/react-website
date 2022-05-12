@@ -14,7 +14,6 @@ const Projects = () => {
       <NavCard />
       <h1 className="title">Projects</h1>
       <p className="sub-exp-text">Side projects and hackathons</p>
-
       <div className="item-container-wrapper">
         <a
           href="https://github.com/michaelsheng15/react-website"

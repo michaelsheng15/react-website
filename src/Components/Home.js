@@ -20,11 +20,11 @@ const MainCard = () => {
           <p className="sub-text">Student | Developer | Frisbee Enthusiast</p>
           <p className="body-text">
             An aspiring software developer studying Management Engineering{" "}
-            <font color="#9900FF">@UWaterloo</font>.📍
+            <font color="#9900FF">@UWaterloo</font>.🎒
           </p>
           <p className="body-text">
-            This summer, I interned <font color="#0055FF">@York Region</font> as
-            an IT Support Analyst. 💻
+            This summer, I interned <font color="#e89211">@Digital Extremes</font> as
+            a Full Stack Web Developer building <font color="#0055FF">Warframe.com</font>. 💻
           </p>
           <div className="button-container">
             <IconContext.Provider

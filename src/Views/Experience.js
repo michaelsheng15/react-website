@@ -3,6 +3,7 @@ import NavCard from "../Components/NavCard";
 import "./Views.css";
 import yrlogo1 from "../img/yrlogo1.png";
 import harness from "../img/harness.png";
+import de from "../img/delogo.png";
 
 
 const ExperienceCard = () => {
@@ -12,6 +13,19 @@ const ExperienceCard = () => {
       <h1 className="title">Experience</h1>
       <p className="sub-exp-text">Internships, clubs and freelancing</p>
 
+      <div className="item-container-wrapper">
+        <Row className="item-container">
+          <Col lg={7} className="text-col">
+            <div className="text-wrapper">
+              <h3>Digital Extremes</h3>
+              <p>Full Stack Web Developer</p>
+            </div>
+          </Col>
+          <Col lg={5} className="img-col">
+            <img src={de} className='de'/>
+          </Col>
+        </Row>
+      </div>
       <div className="item-container-wrapper">
         <Row className="item-container">
           <Col lg={7} className="text-col">
